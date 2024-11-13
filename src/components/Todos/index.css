@@ -1,0 +1,155 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #6aafbf;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  margin: 13px;
+  border-radius: 12px;
+}
+
+.navbar-title {
+  text-align: center;
+  flex-grow: 1;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.navbar-logout,
+.navbar-profile,
+.navbar-dashboard,
+.navbar-settings {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.navbar-logout {
+  background-color: #f44336;
+}
+
+.navbar-profile {
+  background-color: #009688;
+  border-radius: 13px;
+}
+
+.navbar-dashboard,
+.navbar-settings {
+  background-color: #3f51b5;
+  font-weight: 650;
+  font-size: 15px;
+}
+
+.navbar-logout:hover,
+.navbar-profile:hover,
+.navbar-dashboard:hover,
+.navbar-settings:hover {
+  background-color: #555;
+}
+
+.todos-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.todos-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.add-task-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.task-input,
+.description-input {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.todos-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.todo-text {
+  font-size: 16px;
+}
+
+.edit-button,
+.delete-button {
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #ff5722;
+}
+
+.edit-form {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.edit-input {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.save-button,
+.cancel-button {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  background-color: #45a049;
+}
